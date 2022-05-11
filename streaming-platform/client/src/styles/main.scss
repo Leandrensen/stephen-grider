@@ -1,0 +1,107 @@
+@import './variables';
+// SECCIONES
+
+//COMPONENTS
+@import 'components/page404';
+
+//PARTIALS
+
+// SPRITE
+
+// Para mostrar un icono del sprite, agregar clases al elemento "icon sprite-{nombre_del_archivo}"
+@import 'images/sprite';
+@include sprites($spritesheet-sprites);
+.icon {
+    display: inline-block;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Pro Text Regular'), local('SF-Pro-Text-Regular'),
+        url(./fonts/SF-Pro/SF-Pro-Text-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: normal;
+    src: local('SF Pro Text Regular Italic'), local('SF-Pro-Text-Regular-Italic'),
+        url(./fonts/SF-Pro/SF-Pro-Text-RegularItalic.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: bold;
+    src: local('SF Pro Text Bold'), local('SF-Pro-Text-Bold'),
+        url(./fonts/SF-Pro/SF-Pro-Text-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    src: local('SF Pro Text SemiBold'), local('SF Pro Text Semibold'), local('SF-Pro-Text-SemiBold'),
+        local('SF-Pro-Text-Semibold'), url(./fonts/SF-Pro/SF-Pro-Text-Semibold.otf) format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.font-bold {
+    font-weight: bold !important;
+}
+
+.font-semibold {
+    font-weight: 600 !important;
+}
+
+.font-11 {
+    font-size: 0.6875rem;
+}
+
+.font-12 {
+    font-size: 0.75rem;
+}
+
+.font-13 {
+    font-size: 0.8125rem;
+}
+
+.font-14 {
+    font-size: 0.875rem;
+}
+
+.font-15 {
+    font-size: 0.9375rem;
+}
+
+.font-17 {
+    font-size: 1.0625rem;
+}
+
+.font-18 {
+    font-size: 1.125rem;
+}

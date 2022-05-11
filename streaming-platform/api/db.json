@@ -1,0 +1,52 @@
+{
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "This is a great stream.",
+      "id": 1
+    },
+    {
+      "title": "My Stream 2",
+      "description": "My Stream 2",
+      "id": 2
+    },
+    {
+      "title": "2134657",
+      "description": "23424634567",
+      "id": 3
+    },
+    {
+      "title": "test",
+      "description": "test",
+      "id": 4
+    },
+    {
+      "title": "test",
+      "description": "test",
+      "id": 5
+    },
+    {
+      "title": "test userId 2",
+      "description": "test userId 2 ",
+      "userId": "114682198150152482034",
+      "id": 7
+    },
+    {
+      "title": "Doesn't notify user after creation",
+      "description": "Doesn't notify user after creation",
+      "userId": "114682198150152482034",
+      "id": 8
+    },
+    {
+      "title": "Programmatic Navigation Test",
+      "description": "Programmatic Navigation Test",
+      "userId": null,
+      "id": 9
+    },
+    {
+      "title": "Refactor Test asdasdsa",
+      "description": "Refactor Test asdasdsad",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+// MAIN CONTENT
+$heightHeader: 65px;
+$widthSidebar: 270px;
+$widthContent: calc(100% - #{$widthSidebar});
+$heightContent: calc(100vh - #{$heightHeader});
+$heightHeaderAction: 45px;
+$heightContentAction: calc(100vh - #{$heightHeaderAction});
+
+// COLORS
+$white: #ffffff;
+$gray-90: #e3e3e3;
+$gray-100: #f0f0f0;
+$gray-200: #999999;
+$gray-300: #666666;
+$gray-400: #535353;
+$gray-500: #4d4d4d;
+$gray-600: #333333;
+$gray-888888: #888888;
+$back-222222: #222222;
+$black-hard: #000000;
+$blue: #387af8;
+$blue-light: #71b8de;
+$pink: #ef3f87;
+$red: #ff0000;
+$green: #0f9d0f;
+$green-800: #00af36;
+$orange: #ff9831;
+
+// ALERTS
+$alertSuccess: $green;
+$alertInfo: $blue-light;
+$alertWarning: $orange;
+$alertError: $red;
+
+// ICONS
+$iconBlue: $blue;
+
+// FONT SIZE
+$font-10: 0.625rem;
+$font-11: 0.6875rem;
+$font-12: 0.75rem;
+$font-13: 0.8125rem;
+$font-14: 0.875rem;
+$font-15: 0.9375rem;
+$font-16: 1rem;
+$font-17: 1.0625rem;
+$font-18: 1.125rem;
