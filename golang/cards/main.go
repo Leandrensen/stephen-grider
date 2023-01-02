@@ -25,7 +25,7 @@ func main() {
 	// cardsFromFile := newDeckFromFile("my_cards")
 	// cardsFromFile.print()
 
-	cards.shuffle()
+	// cards.shuffle()
 	cards.print()
 }
 
