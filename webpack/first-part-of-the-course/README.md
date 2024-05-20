@@ -1,0 +1,1 @@
+This course is on Webpack 2, I'll try to follow it but installing Weback 5 instead
